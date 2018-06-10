@@ -1,0 +1,196 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	font-family: 'Oswald', sans-serif;
+}
+body a {
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 600;
+}
+p{
+	margin:0;
+}
+ul,label{
+	margin:0;
+	padding:0;
+}
+body a:hover,body a:focus{
+	text-decoration:none;
+	outline: none;
+}
+.bold {
+	font-weight: bold;
+}
+/*--navigation bar--*/
+.navbar {
+	background-color: black;
+	font-family: 'Oswald', sans-serif;
+	font-size: 1em;
+}
+.navbar img {
+    padding-right: 15px;
+}
+.navbar-header a {
+	text-decoration: none;
+	font-size: 1.5em;
+}
+/*--carousel slide--*/
+.carousel-caption > h3 {
+  display: inline-block;
+  padding: 10px;
+  background: #506B7B;
+  opacity: 0.7;
+  border-radius: 5px;
+}
+
+  /*--//carousel slide--*/
+/*-- Thailand Fast Facts --*/
+.fast-facts-grd {
+    text-align: center;
+    padding: 10px 0;
+}
+.fast-facts-grd img {
+	font-size:40px;
+    padding-left: 140px;
+}
+.fast-facts-grd h4 {
+	padding-top: 5px;
+    font-size: 20px;
+    color: #303030;
+    font-weight: 700;
+    margin: 20px 0;
+}
+.fast-facts-grd p{
+	font-size:0.875em;
+	color:#9c9c9c;
+	line-height:1.8em;
+}
+.fast-facts-grids{
+	margin:3em 0 0;
+}
+.fast-facts h3 {
+	font-size: 40px;
+    text-align: center;
+    padding-top: 30px;
+}
+/*-- //Thailand Fast Facts --*/
+
+
+/*-- Places to visit --*/
+
+.places-to-visit {
+	padding: 30px 0;
+}
+.places-to-visit h3 {
+	font-size: 40px;
+	text-align: center;
+	margin-bottom: 40px;
+	color: #000;
+}
+.places-to-visit .grid-wrap {
+	margin: 0 auto;
+	width: 100%;
+	padding: 0;
+	text-align: justify;
+}
+.places-to-visit .grid {
+	position: relative;
+	-webkit-transition: all 0.5s cubic-bezier(0,0,0.25,1);
+	transition: all 0.5s cubic-bezier(0,0,0.25,1);
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+.places-to-visit .grid figure {
+	cursor: pointer;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+}
+.places-to-visit .grid figure {
+	position: relative;
+	float: left;
+	overflow: hidden;
+	text-align: center;
+	cursor: pointer;
+	padding: 0;
+	width: 32.4%;
+	margin: 5px;
+}
+
+.places-to-visit .grid figure img {
+	position: relative;
+	display: block;
+}
+.places-to-visit .grid figure figcaption {
+	padding: 2em;
+	color: #fff;
+	font-size: 1.25em;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+.places-to-visit .grid figure figcaption p {
+	padding: 2em;
+	color: #fff;
+	font-size: 0.8em;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+.places-to-visit .grid figure figcaption::before,
+.grid figure figcaption::after {
+	pointer-events: none;
+}
+.places-to-visit .grid figure figcaption,
+.grid figure figcaption > a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.places-to-visit figure.effect-zoe figcaption {
+	top: auto;
+	bottom: 0;
+	padding: 0;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.55);
+	color: #3c4a50;
+	-webkit-transition: -webkit-transform 0.5s;
+	transition: transform 0.5s;
+	-webkit-transform: translate3d(0,100%,0);
+	transform: translate3d(0,100%,0);
+}
+.places-to-visit figure.effect-zoe h4 {
+	text-align: center;
+	font-size: 35px;
+	color: #FFF;
+	margin-top: 3.4em;
+}
+.places-to-visit figure.effect-zoe h4 {
+	-webkit-transition: -webkit-transform 0.5s;
+	transition: transform 0.5s;
+	-webkit-transform: translate3d(0,200%,0);
+	transform: translate3d(0,200%,0);
+}
+.places-to-visit figure.effect-zoe:hover figcaption,
+figure.effect-zoe:hover h4 {
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+	-webkit-transition: -webkit-transform 0.5s;
+	transition: transform 0.5s;
+}
+.places-to-visit figure.effect-zoe:hover h4 {
+	-webkit-transition-delay: 0.5s;
+	transition-delay: 0.5s;
+}
+/*-- //Places to visit --*/
