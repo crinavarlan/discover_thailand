@@ -447,3 +447,11 @@ p.para-agileits {
 	padding-bottom: 10px;
 }
 /*--//about--*/
+
+/*--contact--*/
+.map img {
+    padding-left: 80px;
+}
+.contact {
+	padding-top: 70px;
+}
