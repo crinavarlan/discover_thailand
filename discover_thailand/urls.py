@@ -16,8 +16,12 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 from home import views as home_views
+from about import views as about_views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', home_views.get_home, name='home'),
+
+    # about url
+    url(r'^about/$', about_views.about, name='about'),
 ]
