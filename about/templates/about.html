@@ -1,10 +1,103 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>$Title$</title>
-</head>
-<body>
-$END$
-</body>
-</html>
+{% extends "base.html" %}
+{% load staticfiles %}
+
+{% block content %}
+
+	<!-- About -->
+    <div class="main">
+	        <div class="wrap">
+		        <div class="content-top">
+			        <div class="about-grids text-justify">
+					        <div class="about-grid">
+						        <h3>About Thailand</h3>
+                                <img src="{% static 'images/about/thai-flag.jpg' %}" class="img-responsive" alt="thailand-flag">
+                                <p>Despite appearances Thailand can be a culturally-challenging place. The heavy emphasis
+                                    on masking true feelings requires the outside to work much harder in terms of how they
+                                    communicate and relate to people. That is why we have published our free cultural guide to Thailand!
+                                    Valuable for anyone researching Thai culture, customs, language, society, manners,
+                                    etiquette, values, business norms and essentially wanting to understand the people better </p>
+                            </div>
+					        <div class="about-grid center-grid">
+						        <h3>Why to choose Thailand?</h3>
+                                <label>The delicious food</label>
+                                <p>Thai food in Thailand is leagues better than anywhere else in the world. There’s more
+                                    variety and more flavors. Your mouth dances with flavor when you eat here.</p>
+                                <label>The warm weather</label>
+						        <p>Thailand can best be described as tropical and humid for the majority of the country
+                                    during most of the year. The area of Thailand north of Bangkok has a climate determined
+                                    by three seasons while the southern peninsular region of Thailand has only two.
+                                </p>
+						        <label>The friendly locals</label>
+                                <p>Thai's people are  always happy, always smiling, extremely polite, and always helpful.
+                                    They’ll help you out if you’re in trouble and help translate for you if you can’t speak Thai.
+                                    They treat you well, and whenever I come back here, the local shop owners whose stores
+                                    I frequent greet me with a warm smile and big hug. Thais have amazing memories — once a friend,
+                                    always a friend.</p>
+                            </div>
+					        <div class="about-grid last-grid">
+						        <h3>Where to eat in Bangkok</h3>
+						        <div class="food-places">
+							        <div class="food-place">
+								        <div class="food-places-left">
+									        <img src="{% static 'images/about/nami-premium-set.jpg' %}" class="img-responsive" alt="thailand-flag">
+								        </div>
+								        </div>
+								        <div class="food-places-right">
+									        <p>Nami Teppanyaki Steakhouse</p>
+								        </div>
+								        <div class="clear"> </div>
+                                </div>
+							        <div class="food-place">
+								        <div class="food-places-left">
+									        <img src="{% static 'images/about/20-years-20-platters.jpg' %}" class="img-responsive" alt="prawns">
+								        </div>
+								        <div class="food-places-right">
+									        <p>Tsu Japanese Restaurant</p>
+								        </div>
+								        <div class="clear"> </div>
+							        </div>
+                                <div class="food-place">
+                                    <div class="food-places-left">
+                                        <img src="{% static 'images/about/steak.jpg' %}" class="img-responsive" alt="thailand-flag">
+                                    </div>
+                                    <div class="food-places-right">
+                                        <p> Tables Grill at Grand Hyatt Erawan Hotel</p>
+                                    </div>
+                                    <div class="clear"> </div>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="clear"> </div>
+                </div>
+            </div><br>
+    </div>
+            <div class="clearfix"> </div>
+
+    <div class="container">
+	<div class="about">
+		    <h3 class="about-title">THAILAND TRAVEL: YOUR COMPLETE GUIDE</h3>
+		    <div class="banner_bottom_right">
+			    <div class="callbacks_container">
+				    <ul class="rslides" id="slider">
+					    <li><img src="{% static 'images/bann1.jpg' %}" class="img-responsive banner" alt="Banner 1"></li>
+                        <li><img src="{% static 'images/bann2.jpg' %}" class="img-responsive banner" alt="Banner 2"></li>
+                        <li><img src="{% static 'images/bann3.jpg' %}" class="img-responsive banner" alt="Banner 3"></li>
+				    </ul>
+			    </div>
+		    </div>
+		    <div class="col-md-7 banner_bottom_left">
+			    <h3>Making the most out of your holiday</h3>
+			    <p class="para-agileits"> Thailand is a country in Southeast Asia with coasts on the Andaman Sea and the Gulf
+                    of Thailand. Thailand comprises several distinct geographic regions:
+                    the north of the country is the mountainous area, the centre of the country is dominated by the predominantly
+                    flat Chao Phraya river valley, and southern Thailand consists of the narrow Kra Isthmus</p>
+			    <p class="para-agileits">With great food, a tropical climate, fascinating culture, majestic mountains
+                    and great beaches, Thailand is a magnet for travellers around the world.
+                    Overall, Thailand speaks for itself. When you hear its name, you already think about beaches, beauty,
+                    jungles, and food. And since it covers almost 200,000 square miles, there's enough to go around...</p>
+		    </div>
+        <div class="clearfix"> </div>
+    </div>
+    </div>
+
+{% endblock %}
