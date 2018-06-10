@@ -52,15 +52,14 @@ body a:hover,body a:focus{
   opacity: 0.7;
   border-radius: 5px;
 }
+/*--/carousel slide--*/
 
-  /*--//carousel slide--*/
 /*-- Thailand Fast Facts --*/
 .fast-facts-grd {
     text-align: center;
     padding: 10px 0;
 }
 .fast-facts-grd img {
-	font-size:40px;
     padding-left: 140px;
 }
 .fast-facts-grd h4 {
@@ -71,7 +70,7 @@ body a:hover,body a:focus{
     margin: 20px 0;
 }
 .fast-facts-grd p{
-	font-size:0.875em;
+	font-size:1em;
 	color:#9c9c9c;
 	line-height:1.8em;
 }
@@ -194,3 +193,87 @@ figure.effect-zoe:hover h4 {
 	transition-delay: 0.5s;
 }
 /*-- //Places to visit --*/
+
+/*-- Footer --*/
+
+.footer {
+    background: #303030;
+    padding: 3em 0;
+    margin-top: 3em;
+}
+.footer h6 {
+    font-size: 1.7em;
+    background: #506B7B;
+    padding: 0.5em 1.7em;
+    font-weight: 700;
+    color: #fff;
+}
+.footer p {
+    font-size: 0.875em;
+    color: #fff;
+    margin: 1em 0;
+    line-height: 1.8em;
+}
+.footer-middle p {
+    margin: 0;
+}
+.footer h4 {
+    font-size: 1.7em;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+}
+.mid-bottom {
+    margin-bottom: 10px;
+	margin-top: 20px;
+}
+.footer-right li a {
+    color: #fff;
+    font-size: 0.875em;
+    line-height: 1.8em;
+}
+.footer-right li a:hover{
+    color: #506B7B;
+}
+.footer-right li {
+	display:block;
+}
+.details  form input[type="text"] {
+  width: 100%;
+  color: #333333 ! important;
+  outline: none;
+  font-size: 16px;
+  padding: .5em;
+  border: none;
+  -webkit-appearance: none;
+  margin-bottom:0.5em;
+  font-family: 'Open Sans', sans-serif;
+}
+.details form input[type="submit"] {
+  background:#506B7B;
+  padding: 10px 0;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  display: block;
+  outline: none;
+  border: none;
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+}
+.details form input[type="submit"]:hover{
+	background:#000000;
+}
+.copyright {
+    background:#0a0a0a;
+    padding: 1em 0;
+    text-align: center;
+}
+.copyright p {
+    font-size: 0.875em;
+    color: #ffffff;
+    line-height: 1.8em;
+}
+
+/*--//footer--*/
