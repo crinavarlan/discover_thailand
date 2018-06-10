@@ -17,6 +17,7 @@ from django.conf.urls import url
 from django.contrib import admin
 from home import views as home_views
 from about import views as about_views
+from contact import views as contact_views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
@@ -24,4 +25,7 @@ urlpatterns = [
 
     # about url
     url(r'^about/$', about_views.about, name='about'),
+
+    # contact url
+    url(r'^contact/$', contact_views.contact, name='contact'),
 ]
