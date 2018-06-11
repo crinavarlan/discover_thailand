@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+  <div class="container posts text-justify">
+        <div class="col-md-12 col-sm-12">
+        <br>
+            <h3>{{ post.title }}</h3>
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8">
+                    {% if post.image %}
+                        <img src="/media/{{ post.image}}" class="img-responsive">
+                    {% endif %}
+                    <br>
+                    <p>{{ post.content|linebreaks }}</p>
+                <br>
+                    <button class="btn btn-outline-primary" onclick="location.href='/blog'">Back To Blog</button>
+
+                {% if user.is_authenticated %}
+                     <button class="btn btn-outline-primary" onclick="location.href='edit'">Edit</button>
+                     <a href="{% url 'new_post'  %}"  class="btn btn-outline-primary">New post</a>
+                {% endif %}
+
+                    <br>
+                <br>
+                    <p>{{ post.published_date }} | Views {{ post.views }}</p>
+                    <br>
+                    {% load disqus_tags %}
+                    {% set_disqus_title post.title %}
+                    {% disqus_show_comments %}
+                    <br>
+                </div>
+                <div class="col-sm-2"></div>
+        </div>
+  </div>
+{% endblock %}
+
