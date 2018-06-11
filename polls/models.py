@@ -1,6 +1,25 @@
-# -*- coding: utf-8 -*-
-from __future__ import unicode_literals
-
 from django.db import models
+from django.conf import settings
+from threads.models import Thread
 
-# Create your models here.
+
+class Poll(models.Model):
+    question = models.TextField()
+    thread = models.OneToOneField(Thread, null=True, on_delete=models.DO_NOTHING)
+
+    def __unicode__(self):
+        return self.question
+
+
+class PollSubject(models.Model):
+    name = models.CharField(max_length=255)
+    poll = models.ForeignKey(Poll, related_name='subjects', on_delete=models.DO_NOTHING)
+
+    def __unicode__(self):
+        return self.name
+
+
+class Vote(models.Model):
+    poll = models.ForeignKey(Poll, related_name="votes", on_delete=models.DO_NOTHING)
+    subject = models.ForeignKey(PollSubject, related_name="votes", on_delete=models.DO_NOTHING)
+    user = models.ForeignKey(settings.AUTH_USER_MODEL, related_name='votes', on_delete=models.DO_NOTHING)

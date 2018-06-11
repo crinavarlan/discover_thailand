@@ -48,6 +48,7 @@ INSTALLED_APPS = [
     'accounts',
     'blog',
     'threads',
+    'polls'
 ]
 
 AUTH_USER_MODEL = 'accounts.User'
