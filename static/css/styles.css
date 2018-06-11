@@ -591,3 +591,89 @@ p.para-agileits {
 	}
 /*--//forum post--*/
 /*--//forum--*/
+
+/*--products--*/
+/*--products-top--*/
+.products-top {
+	background: #303030;
+}
+.products-top h2 {
+	font-size: 40px;
+	margin-bottom: 20px;
+	color: #FFF;
+	text-align: center;
+}
+.products-top h4 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	font-weight: 100;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #CCC;
+	color: #FFF;
+	width: 73%;
+	margin: 0 auto 50px;
+	text-align: center;
+}
+.products-top-grid-1 h3 {
+	text-align: left;
+	margin-bottom: 30px;
+	color: #FFF;
+	font-size: 25px;
+}
+.products-top-grid-1 p {
+	font-size: 17px;
+	font-weight: 300;
+	line-height: 30px;
+	color: #EEE;
+	padding-right: 75px;
+	margin-bottom: 75px;
+}
+.products-top-grid-2 h3 {
+	text-align: left;
+	margin-bottom: 10px;
+	color: #FFF;
+	font-size: 18px;
+}
+.products-top-grid-2 p {
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 25px;
+	color: #EEE;
+	padding-right: 0;
+	margin-bottom: 30px;
+}
+.products-top-grid-2 p.bottom-p {
+	margin-bottom: 0;
+}
+
+/*--products table--*/
+.products-table {
+    padding: 1% 4%;
+    margin-top: 6%;
+    margin-bottom: 5%;
+}
+.products-name {
+    width: 10%;
+}
+
+.products-description {
+    width: 50%;
+}
+
+.products-price {
+    width: 5%;
+}
+
+.products-purchase {
+    width: 15%;
+}
+/*--//products-top--*/
+/*--products table--*/
+
+.products-table {
+		padding: 1% 4%;
+		margin-top: 6%;
+		margin-bottom: 5%;
+}
+/*--//products table--*/
+/*-- //products --*/
