@@ -457,3 +457,31 @@ p.para-agileits {
 .contact {
 	padding-top: 70px;
 }
+
+/*--user profile--*/
+
+.container ol li {
+	text-decoration: none;
+}
+.container {
+	padding-top: 50px;
+}
+.profile-header {
+	width: 500px;
+}
+.profile-header ol li {
+    padding: 12px 0;
+    transition: all 0.3s ease;
+    color: #CCCCCC;
+    font-size: 20px;
+}
+.profile-header ol li a {
+    width: 20%;
+    padding: 12px 0;
+    transition: all 0.3s ease;
+    color: #CCCCCC;
+    font-size: 25px;
+}
+.profile-header ol li a :hover {
+    color: #506B7B;
+}
