@@ -19,6 +19,9 @@ from home import views as home_views
 from about import views as about_views
 from contact import views as contact_views
 from accounts import views as accounts_views
+from blog import views as blog_views
+from .settings import MEDIA_ROOT
+from django.views.static import serve
 
 
 urlpatterns = [
@@ -37,4 +40,12 @@ urlpatterns = [
     url(r'^login/$', accounts_views.login, name='login'),
     url(r'^logout/$', accounts_views.logout, name='logout'),
     url('^', include('django.contrib.auth.urls')),
+
+    # blog url
+    url(r'^media/(?P<path>.*)$', serve, {'document_root': MEDIA_ROOT}),
+    url(r'^blog/$', blog_views.post_list),
+    url(r'^blog/(?P<id>\d+)/$', blog_views.post_detail),
+    url(r'^blog/top', blog_views.top_posts),
+    url(r'^post/new/$', blog_views.new_post, name='new_post'),
+    url(r'^blog/(?P<id>\d+)/edit$', blog_views.edit_post),
 ]
