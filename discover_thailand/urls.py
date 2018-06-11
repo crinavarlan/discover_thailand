@@ -23,6 +23,8 @@ from blog import views as blog_views
 from .settings import MEDIA_ROOT
 from django.views.static import serve
 from threads import views as forum_views
+from paypal.standard.ipn import urls as paypal_urls
+from paypal_store import views as paypal_views
 
 
 urlpatterns = [
@@ -59,5 +61,10 @@ urlpatterns = [
     url(r'^post/edit/(?P<thread_id>\d+)/(?P<post_id>\d+)/$',forum_views.edit_post, name='edit_post'),
     url(r'^post/delete/(?P<thread_id>\d+)/(?P<post_id>\d+)/$', forum_views.delete_post, name='delete_post'),
     url(r'^thread/vote/(?P<thread_id>\d+)/(?P<subject_id>\d+)/$', forum_views.thread_vote, name='cast_vote'),
+
+    # paypal
+    url(r'^a-very-hard-to-guess-url/', include(paypal_urls)),
+    url(r'^paypal-return', paypal_views.paypal_return),
+    url(r'^paypal-cancel', paypal_views.paypal_cancel),
 
 ]

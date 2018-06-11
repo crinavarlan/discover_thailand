@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django.contrib.sites',
     'django_forms_bootstrap',
+    'paypal.standard.ipn',
     'tinymce',
     'emoticons',
     'about',
@@ -48,7 +49,8 @@ INSTALLED_APPS = [
     'accounts',
     'blog',
     'threads',
-    'polls'
+    'polls',
+    'paypal_store',
 ]
 
 AUTH_USER_MODEL = 'accounts.User'
@@ -156,3 +158,8 @@ EMAIL_HOST_USER = ''
 EMAIL_HOST_PASSWORD = ''
 EMAIL_USE_TLS = False
 EMAIL_PORT = 1025
+
+
+SITE_URL = 'http://127.0.0.1:8000'
+PAYPAL_NOTIFY_URL = 'http://127.0.0.1/a-very-hard-to-guess-url/'
+PAYPAL_RECEIVER_EMAIL = 'discoverthailandbusiness.sandbox@yahoo.com'
