@@ -40,11 +40,14 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django.contrib.sites',
     'django_forms_bootstrap',
+    'tinymce',
+    'emoticons',
     'about',
     'home',
     'contact',
     'accounts',
     'blog',
+    'forum'
 ]
 
 AUTH_USER_MODEL = 'accounts.User'
@@ -141,6 +144,9 @@ STATICFILES_DIRS = (os.path.join(BASE_DIR, "static"),)
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
+
+# tinymce settings
+TINYMCE_JS_ROOT = os.path.join(BASE_DIR, "static", "vendors", "js", "tinymce", "tinymce.min.js")
 
 # Setting for sending emails: Contact form.
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
