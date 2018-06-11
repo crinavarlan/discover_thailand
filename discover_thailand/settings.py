@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.sites',
     'django_forms_bootstrap',
     'paypal.standard.ipn',
+    'disqus',
     'tinymce',
     'emoticons',
     'about',
@@ -93,6 +94,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'discover_thailand.wsgi.application'
 
+DISQUS_WEBSITE_SHORTNAME = 'DiscoverThailand'
 
 # Database
 # https://docs.djangoproject.com/en/1.11/ref/settings/#databases
