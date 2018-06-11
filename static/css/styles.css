@@ -524,3 +524,62 @@ p.para-agileits {
 	text-align: center;
 }
 /*--//blog--*/
+
+/*--forum--*/
+.subject-description {
+    width: 70%;
+}
+.subject-list-items {
+	border-left: 2px solid #506B7B;
+	margin: 10px;
+}
+.subject-list-items:hover,
+.subject-list-items:focus {
+	background-color: #e6ebf0;
+}
+.subject-list-items p{
+	padding: 0;
+}
+.subject-list {
+	margin: 20px;
+}
+.jumbotron {
+	text-align: center;
+}
+.thead-inverse {
+	background-color: #303030;
+}
+.thead-inverse tr th,
+.thead-inverse tr th h3 a{
+	color: #fff;
+}
+.thread {
+	padding: 15px;
+}
+/*--forum post--*/
+.post-intro {
+		padding-top: 1%;
+		padding-right: 5%;
+		padding-bottom: 1%;
+}
+.post-intro table {
+		margin-top: 10%;
+}
+.post-intro p {
+		margin-top: 10%;
+}
+.post-intro section ul {
+		line-height: 20%;
+}
+.post-intro section {
+		margin-top: 12%;
+}
+.post {
+		margin-top: 2%;
+		padding: 4%;
+		background-color: #fbfbfb;
+		border-left: 2px solid #42586e;
+		text-align: justify;
+	}
+/*--//forum post--*/
+/*--//forum--*/
