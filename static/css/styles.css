@@ -492,3 +492,35 @@ p.para-agileits {
 	font-size: 1.3em;
 }
 /*--//form box--*/
+
+/*--blog--*/
+/*--blog details--*/
+.blog-posts {
+	border-color: transparent;
+	border-radius: 0;
+}
+.blog-details{
+	margin-top: 80px;
+}
+.posts h3{
+	font-weight: bold;
+	margin: 30px;
+	text-align: center;
+}
+.blogposts h3 {
+	font-weight: bold;
+	margin: 40px;
+}
+.blogposts {
+	margin: 5px;
+}
+.blogposts img{
+	margin-top: 60px;
+}
+
+/*--blog edit--*/
+.edit-blog h1{
+	margin: 50px;
+	text-align: center;
+}
+/*--//blog--*/
