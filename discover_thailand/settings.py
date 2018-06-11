@@ -44,6 +44,15 @@ INSTALLED_APPS = [
     'accounts',
 ]
 
+AUTH_USER_MODEL = 'accounts.User'
+
+AUTHENTICATION_BACKENDS = (
+    'django.contrib.auth.backends.ModelBackend',
+    'accounts.backends.EmailAuth',
+)
+
+LOGIN_URL = '/login/'
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -127,9 +136,10 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 STATICFILES_DIRS = (os.path.join(BASE_DIR, "static"),)
 
-AUTH_USER_MODEL = 'accounts.User'
-
-AUTHENTICATION_BACKENDS = (
-    'django.contrib.auth.backends.ModelBackend',
-    'accounts.backends.EmailAuth',
-)
+# Setting for sending emails: Contact form.
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+DEFAULT_FROM_EMAIL = 'test@example.com'
+EMAIL_HOST_USER = ''
+EMAIL_HOST_PASSWORD = ''
+EMAIL_USE_TLS = False
+EMAIL_PORT = 1025
