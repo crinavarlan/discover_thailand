@@ -44,6 +44,14 @@ body a:hover,body a:focus{
 	text-decoration: none;
 	font-size: 1.5em;
 }
+/*--button--*/
+.btn {
+    background: #506B7B;
+    padding: 0.3em 1.8em;
+	margin: 0.7em 0 0.3em 0;
+	display:inline-block;
+    color: #fff;
+}
 /*--carousel slide--*/
 .carousel-caption > h3 {
   display: inline-block;
