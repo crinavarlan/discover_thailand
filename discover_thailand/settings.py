@@ -26,6 +26,7 @@ SECRET_KEY = 'xskj7!qc0tg*zmyz%z=44i60(&1b1prq@6h5g%b1bl)+lyqp4('
 DEBUG = True
 
 ALLOWED_HOSTS = []
+SITE_ID = 1
 
 
 # Application definition
@@ -37,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django.contrib.sites',
     'django_forms_bootstrap',
     'about',
     'home',
