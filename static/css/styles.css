@@ -454,12 +454,8 @@ p.para-agileits {
 .map img {
     padding-left: 80px;
 }
-.contact {
-	padding-top: 70px;
-}
 
 /*--user profile--*/
-
 .container ol li {
 	text-decoration: none;
 }
@@ -485,3 +481,14 @@ p.para-agileits {
 .profile-header ol li a :hover {
     color: #506B7B;
 }
+/*--form box for contact, login and register--*/
+.form-box {
+	margin: 80px;
+}
+.form-box p {
+	color:#506B7B;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.3em;
+}
+/*--//form box--*/
