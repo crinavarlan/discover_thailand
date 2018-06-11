@@ -44,7 +44,7 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="/"{% if request.path == "/" %}class="active-pg" {% endif %}>Home</a></li>
                     <li><a href="/about/"{% if request.path == "/about/" %}class="active-pg"{% endif %}>Guide</a></li>
-                    <li><a href="#">Products</a></li>
+                    <li><a href="/products/"{% if request.path == "/products/" %}class="active-pg"{% endif %}>Products</a></li>
                     <li><a href="/blog/"{% if request.path == "/blog/" %}class="active-pg"{% endif %}>Blog</a></li>
                     <li><a href="/forum/">Forum</a></li>
                     <li><a href="/contact/"{% if request.path == "/contact/" %}class="active-pg"{% endif %}>Contact</a></li>

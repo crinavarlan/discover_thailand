@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+{% block content %}
+
+
+    <!-- Products top box -->
+	<div class="products-top">
+		<div class="container">
+
+			<h2>Fun activities perfect for you </h2>
+			<h4>"It is not the destination where you end up but the mishaps and memories you create along the way."</h4>
+			<div class="products-top-grids">
+				<div class="col-md-5 products-top-grid products-top-grid-1">
+					<h3>Visit some islands</h3>
+					<p>Do you want to visit some Thailand islands but you are confused where to go? I understand you.
+                        There are so many islands to choose from, and looking at the map can be overwhelming.
+                        We have some products that can help you decide where to go!
+                    </p>
+				</div>
+				<div class="col-md-6 products-top-grid products-top-grid-2">
+					<h3>Islands in the Andaman Coast, Thailand <span><i class="fa fa-angle-right" aria-hidden="true"></i></span></h3>
+					<p>The Andaman coast is the west coast of Thailand on the south of the country, facing the Andaman sea.
+                        Most of the area belongs to the Krabi province. The main places to visit in the Andaman Coastare:
+                        BAMBOO ISLAND, KOH PHI PHI LEE, KOH PHI PHI DON, RAILAY, KOH LANTA, KOH PODA, KOH LIPE</p>
+					<h3>Best way to get to Thailand’s Andaman coast <span><i class="fa fa-angle-right" aria-hidden="true"></i></span></h3>
+					<p>The easier and direct way is definitely by plane. Phuket and Krabi
+                        airports have several direct international flights. If you want to see more, to visit different islands
+                        and escape the crowds you should check our trips below
+                    </p>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<!-- //Products top box -->
+
+    <!-- Products description and price -->
+    <div class="products-table">
+        <div class="row">
+            <div class="col-sm-10">
+                <table class="table table-responsive table-striped">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Description</th>
+                            <th>Price</th>
+                            <th>Purchase</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for product in products %}
+                            <tr>
+                                <td class="products-name bold">{{ product.name }}</td>
+                                <td class="products-description">{{ product.description }}</td>
+                                <td class="products-price">£{{ product.price }}</td>
+                                <td class="products-purchase">{{ product.paypal_form.sandbox }}</td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+     <!-- //Products description and price -->
+{% endblock %}

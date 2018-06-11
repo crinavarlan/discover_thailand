@@ -25,6 +25,7 @@ from django.views.static import serve
 from threads import views as forum_views
 from paypal.standard.ipn import urls as paypal_urls
 from paypal_store import views as paypal_views
+from products import views as products_views
 
 
 urlpatterns = [
@@ -66,5 +67,8 @@ urlpatterns = [
     url(r'^a-very-hard-to-guess-url/', include(paypal_urls)),
     url(r'^paypal-return', paypal_views.paypal_return),
     url(r'^paypal-cancel', paypal_views.paypal_cancel),
+
+    # products url
+    url(r'^products/$', products_views.all_products, name='products'),
 
 ]
