@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% load thread_extras %}
+{% load staticfiles %}
+{% block content %}
+
+    <div class="container">
+        <div class="col-md-12">
+            <div class="row">
+                <div class="jumbotron"><h3>{{ subject.name }}</h3></div>
+            </div>
+        </div>
+
+        <div class="col-md-12">
+            <div class="col-sm-6">
+                <img src="{% static 'images/travel-concept.jpg' %}" class="img-responsive" alt="thailand map">
+            </div>
+
+            <div class="col-sm-5 subject-list">
+                    {% for thread in subject.threads.all %}
+                                <div class="col-md-12 subject-list-items" >
+                                    <p>
+                                        {% include "forum/thread_item.html" %}
+                                    </p>
+                                </div>
+                    {% endfor %}
+
+                    {% if user.is_authenticated %}
+                        <br>
+                        <br>
+                        <p>
+                            <a href="{% url 'new_thread' subject.id %}" class="btn btn-primary">New Thread</a>
+                        </p>
+                        <hr>
+                    {% endif %}
+            </div>
+        </div>
+
+    </div>
+{% endblock %}
+

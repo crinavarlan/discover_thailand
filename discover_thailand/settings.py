@@ -47,7 +47,7 @@ INSTALLED_APPS = [
     'contact',
     'accounts',
     'blog',
-    'forum'
+    'threads',
 ]
 
 AUTH_USER_MODEL = 'accounts.User'

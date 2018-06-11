@@ -22,6 +22,7 @@ from accounts import views as accounts_views
 from blog import views as blog_views
 from .settings import MEDIA_ROOT
 from django.views.static import serve
+from threads import views as forum_views
 
 
 urlpatterns = [
@@ -48,4 +49,10 @@ urlpatterns = [
     url(r'^blog/top', blog_views.top_posts),
     url(r'^post/new/$', blog_views.new_post, name='new_post'),
     url(r'^blog/(?P<id>\d+)/edit$', blog_views.edit_post),
+
+    # forum
+    url(r'^forum/$', forum_views.forum),
+    url(r'^threads/(?P<subject_id>\d+)/$', forum_views.threads, name='threads'),
+    url(r'^new_thread/(?P<subject_id>\d+)/$', forum_views.new_thread, name='new_thread'),
+
 ]
