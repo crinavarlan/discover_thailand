@@ -677,3 +677,632 @@ p.para-agileits {
 }
 /*--//products table--*/
 /*-- //products --*/
+
+/*--responsive--*/
+@media(max-width:1440px) {
+    .banner_bottom_right {
+		width: 100%;
+		position: initial;
+	}
+    .banner_bottom_left {
+        width: 100%;
+	}
+    .about-title {
+		font-size: 2.8em;
+		margin-bottom: 1em;
+        text-align: center;
+	}
+}
+@media(max-width:1366px) {
+	.banner_bottom_left {
+		padding: 6em 6em 6em 7em;
+	}
+	.wrap {
+		width:90%;
+	}
+}
+@media(max-width:1280px) {  }
+
+@media(max-width:1080px) {
+	.banner {
+		min-height: 300px;
+	}
+	.banner_bottom_left {
+		padding: 4em 3em 4em 5em;
+	}
+	.banner_bottom_right {
+		top: 36.6%;
+	}
+	.places-to-visit .grid figure {
+		width: 32.2%;
+	}
+	.places-to-visit figure.effect-zoe h4 {
+		margin-top: 3.25em;
+		font-size: 30px;
+	}
+    .products-top {
+		padding: 75px 0;
+	}
+	.products-top h4 {
+		font-size: 17px;
+		width: 81%;
+		margin-bottom: 40px;
+	}
+	.products-top-grid-1 p {
+		font-size: 16px;
+	}
+	.products-top-grid-2 h3 {
+		margin-bottom: 7px;
+	}
+	.products-top-grid-2 p {
+		font-size: 14px;
+		line-height: 23px;
+		margin-bottom: 25px;
+	}
+}
+@media(max-width:1050px) {
+	.slider-info h3 {
+		font-size: 2.5em;
+		line-height: 1.5em;
+	}
+	.banner_bottom_left h3 {
+		font-size: 1.3em;
+		line-height: 33px;
+		margin-bottom: 0.5em;
+	}
+}
+@media(max-width:1024px) {
+	.places-to-visit figure.effect-zoe h4 {
+		margin-top: 3.3em;
+	}
+	.footer h4 {
+    font-size: 1.5em;
+	}
+	.footer p {
+    font-size: 0.85em;
+	}
+	.about-grid h3 {
+		font-size: 1.7em;
+	}
+	.about-grid span {
+		font-size: 0.89em;
+	}
+	.about-grid p {
+		font-size: 0.97em;
+	}
+}
+@media(max-width:991px) {
+	.navbar-default .navbar-collapse,
+	.navbar-default .navbar-form {
+		margin-left: 1em;
+	}
+	.slider-info {
+		margin-top: 32%;
+	}
+	.slider-info h3 {
+		letter-spacing: 2px;
+		line-height: 1.3em;
+	}
+	.about-title {
+		font-size: 2.5em;
+		margin-bottom: 0.8em;
+	}
+	.banner_bottom_right {
+		width: 100%;
+		position: initial;
+	}
+	.banner {
+		min-height: 350px;
+	}
+	.banner_bottom_left {
+		padding: 4.2em 3em;
+	}
+	.about {
+		padding-bottom: 0!important;
+	}
+	.places-to-visit figure.effect-zoe h4 {
+		font-size: 28px;
+	}
+	.footer-left,.footer-middle,.footer-right {
+    float: left;
+    width: 33.33%;
+    }
+	.products-top-grid-1, .products-top-grid-2 {
+		width: 50%;
+		float: left;
+		padding: 0;
+	}
+	.products-top h4 {
+		width: 83%;
+	}
+}
+@media(max-width:900px) {
+	.places-to-visit .grid figure {
+		width: 32.1%;
+		height: 100%;
+	}
+    .products-top h4 {
+		width: 89%;
+	}
+    .navbar-header a {
+		font-size: 1.2em;
+	}
+    map img {
+        padding-top: 30px;
+    }
+}
+@media(max-width:800px) {
+	.slider-info h3 {
+		font-size: 2.3em;
+	}
+	.slider-info {
+		margin-top: 28%;
+	}
+	.about-title {
+		font-size: 2.3em;
+	}
+	.banner_bottom_left {
+		padding: 3.5em 2em;
+	}
+	.places-to-visit .grid figure {
+		width: 32%;
+		height: 100%;
+	}
+	.places-to-visit figure.effect-zoe h4 {
+		font-size: 26px;
+	}
+	.about-grid h3 {
+		font-size: 1.7em;
+	}
+	.about-grid span {
+		font-size: 0.89em;
+	}
+	.about-grid p {
+		font-size: 0.97em;
+	}
+	.products-top h4 {
+		width: 100%;
+	}
+    .posts h3 {
+        font-size: 2.7em;
+    }
+	.navbar-header a{
+		font-size: 0.3em;
+	}
+}
+@media(max-width:768px) {
+	.places-to-visit {
+		padding: 50px 0;
+	}
+	.places-to-visit h3 {
+		font-size: 35px;
+		margin-bottom: 35px;
+	}
+	.places-to-visit .grid figure {
+		margin: 4px;
+	}
+	.places-to-visit figure.effect-zoe h4 {
+		margin-top: 3em;
+	}
+	.about-grid h3 {
+		font-size: 1.7em;
+	}
+	.about-grid span {
+		font-size: 0.89em;
+	}
+	.about-grid p {
+		font-size: 0.97em;
+	}
+    .products-top {
+		padding: 50px 0;
+	}
+	.products-top h2 {
+		font-size: 35px;
+	}
+	.products-top h4 {
+		font-size: 16px;
+		font-weight: 300;
+		margin-bottom: 30px;
+	}
+	.products-top-grid-1, .products-top-grid-2 {
+		width: 100%;
+	}
+	.products-top-grid-1 h3 {
+		margin-bottom: 10px;
+	}
+	.products-top-grid-1 p {
+		font-size: 15px;
+		padding: 0;
+		line-height: 25px;
+		margin-bottom: 15px;
+	}
+	.products-top-grid-2 {
+		margin-top: 40px;
+	}
+	.products-top-grid-2 h3 {
+		margin-bottom: 10px;
+		font-size: 20px;
+	}
+    .navbar-header a {
+		font-size: 1em;
+	}
+    .blogposts h3 {
+        font-size: 1.7em;
+        margin: 15px;
+        text-align: center;
+    }
+    .contact-right legend p {
+        font-size: 0.9em;
+        padding: 10px;
+    }
+	.item img {
+		height: 50%;
+	}
+}
+@media(max-width:767px) {
+	.navbar-collapse.in {
+		overflow-y: hidden;
+		width: 100%;
+	}
+	.navbar-collapse.in {
+		width: 100%;
+	}
+	.navbar-default .navbar-toggle:hover,
+	.navbar-default .navbar-toggle:focus {
+		background-color: rgba(255, 253, 253, 0.42);
+	}
+	.navbar-default .navbar-toggle {
+		border-color: #ee4f4f;
+	}
+	.navbar-toggle {
+		position: relative;
+		float: right;
+		padding: 9px 10px;
+		margin-top: 2px;
+		margin-right: 46px;
+		margin-bottom: 0;
+		border: 1px solid transparent;
+		border-radius: 4px;
+	}
+	.navbar-default .navbar-collapse,
+	.navbar-default .navbar-form {
+		border-color: transparent;
+	}
+}
+@media(max-width:736px) {
+	.slider-info h3 {
+		letter-spacing: 1px;
+	}
+	.slider-info p {
+		padding: 0;
+	}
+	.places-to-visit figure.effect-zoe h4 {
+		margin-top: 2.8em;
+	}
+	.footer-left, .footer-middle, .footer-right {
+    float: left;
+    width: 100%;
+    margin-bottom: 2em;
+	}
+	.footer {
+    padding: 2em 0 1em;
+	}
+	.footer h4 {
+    font-size: 1.4em;
+	}
+    .products-top h4 {
+		width: 80%;
+		line-height: 25px;
+	}
+    .map img {
+        margin-left: 35px;
+    }
+    .contact-right legend p {
+        font-size: 1.5em;
+    }
+}
+@media(max-width:667px) {
+	.slider-info h3 {
+		font-size: 2em;
+		line-height: 1.4em;
+	}
+	.banner_bottom_left {
+		padding: 3em 2em;
+	}
+	.about-title {
+		margin-bottom: 0.7em;
+	}
+	.places-to-visit figure.effect-zoe h4 {
+		margin-top: 2.5em;
+	}
+}
+
+@media(max-width:640px) {
+	.places-to-visit h3 {
+		font-size: 30px;
+		margin-bottom: 30px;
+	}
+	.about-grid h3 {
+		font-size: 1.5em;
+        text-align: center;
+        padding: 10px;
+	}
+	.about-grid span {
+		font-size: 0.89em;
+	}
+	.about-grid p {
+		font-size: 0.97em;
+	}
+
+	.about-grid {
+		width: 100%;
+		float: none;
+	}
+	.center-grid {
+		float: none;
+		width: 100%;
+	}
+	.places-to-visit .grid figure img {
+		padding: 5px 0;
+	}
+    .about-title {
+		font-size: 1.5em;
+		margin-bottom: 0.8em;
+        text-align: center;
+        padding-top: 0;
+	}
+    .products-top h2 {
+		font-size: 30px;
+	}
+}
+@media(max-width:600px) {
+	.slider-info h3 {
+		font-size: 1.8em;
+	}
+	.slider-info {
+		margin-top: 32%;
+	}
+	p.para-agileits {
+		font-size: 14px;
+		letter-spacing: 1px;
+	}
+	.places-to-visit .grid figure {
+		margin: 3px;
+	}
+	.places-to-visit figure.effect-zoe h4 {
+		font-size: 22px;
+	}
+    .map img {
+    padding-left: 20px;
+    }
+}
+@media(max-width:568px) {
+	.about-title {
+		font-size: 2.1em;
+	}
+	.banner_bottom_left {
+		padding: 2.5em 2em;
+	}
+	.places-to-visit .grid figure {
+		margin: 0;
+		width: 33.3%;
+	}
+    .products-top {
+		padding: 35px 0;
+	}
+	.products-top h2 {
+		font-size: 28px;
+		margin-bottom: 15px;
+	}
+	.products-top h4 {
+		width: 95%;
+		font-size: 15px;
+		line-height: 23px;
+	}
+	.products-top-grid-1 h3 {
+		font-size: 20px;
+	}
+	.products-top-grid-1 p {
+		font-size: 14px;
+		line-height: 23px;
+		margin-bottom: 10px;
+	}
+    .products-top-grid-2 {
+		margin-top: 25px;
+	}
+	.products-top-grid-2 h3 {
+		margin-bottom: 5px;
+	}
+	.products-top-grid-2 p {
+		margin-bottom: 20px;
+	}
+}
+@media(max-width:480px) {
+
+	.slider-info {
+		margin-top: 43%;
+	}
+
+	.slider-info h3 {
+		font-size: 1.5em;
+	}
+
+	.slider-info p {
+		letter-spacing: 1px;
+	}
+
+	.banner {
+		min-height: 240px;
+	}
+
+	.banner_bottom_left h3 {
+		font-size: 1.2em;
+		letter-spacing: 1px;
+	}
+
+	.about-title {
+		font-size: 2em;
+		letter-spacing: 1px;
+        text-align: center;
+	}
+
+	.places-to-visit figure.effect-zoe h4 {
+		margin-top: 2em;
+		font-size: 0.6em;
+	}
+
+	.wrap {
+		width: 90%;
+	}
+
+	.about-grid h3 {
+		font-size: 1.3em;
+	}
+
+	.about-grid span {
+		font-size: 0.89em;
+	}
+	.about-grid p {
+		font-size: 0.97em;
+	}
+	.about-grid {
+		width: 100%;
+		float: none;
+	}
+	.center-grid {
+		margin: 0 0;
+	}
+	.navbar-header a {
+		font-size: 1.2em;
+	}
+    .blogposts h3 {
+        font-size: 1.2em;
+        margin: 15px;
+        text-align: center;
+    }
+    .blogposts img {
+        margin: 5px;
+    }
+    .posts h3 {
+            font-size: 1.5em;
+    }
+    .posts {
+        padding: 10px;
+    }
+	.thead-inverse h3 {
+		font-size: 1.3em;
+	}
+}
+	@media (max-width: 440px) {
+		.about-title {
+			line-height: 1.3em;
+			margin-bottom: 0.5em;
+		}
+	}
+	@media (max-width: 414px) {
+		.slider-info h3 {
+			font-size: 1.3em;
+		}
+		.slider-info {
+			margin-top: 50.3%;
+		}
+
+		.places-to-visit figure.effect-zoe h4 {
+			margin-top: 2.8em;
+		}
+		.footer h4 {
+			font-size: 1.3em;
+		}
+        .map img {
+            margin: 0;
+            padding-left: 0;
+        }
+        .contact-right legend p {
+            font-size: 1em;
+        }
+	}
+	@media (max-width: 384px) {
+		.slider-info h3 {
+			font-size: 1.2em;
+		}
+
+		.slider-info {
+			margin-top: 56.3%;
+		}
+
+		.banner_bottom_left {
+			padding: 2em 1em;
+		}
+
+		.places-to-visit .grid figure {
+			width: 100%;
+		}
+
+		.places-to-visit figure.effect-zoe h4 {
+			margin-top: 5.5em;
+		}
+        .products-top h2 {
+		font-size: 25px;
+	    }
+	    .products-top h4 {
+		    width: 100%;
+		    font-size: 14px;
+		    line-height: 22px;
+	    }
+        .posts h3 {
+            font-size: 1.2em;
+        }
+        .posts {
+            padding: 10px;
+        }
+	}
+	@media (max-width: 375px) {
+		.slider-info h3 {
+			line-height: 1.5em;
+		}
+		.agile-b-wrapper h5 {
+			line-height: 2.35em;
+		}
+	}
+	@media (max-width: 320px) {
+		.slider-info {
+			margin-top: 81.3%;
+		}
+		.slider-info p {
+			letter-spacing: 1px;
+			line-height: 23px;
+			margin: 0;
+		}
+		.slider-info h3 {
+			font-size: 1em;
+			letter-spacing: 0;
+		}
+		.places-to-visit figure.effect-zoe h4 {
+			margin-top: 4.5em;
+		}
+		.footer-left, .footer-middle, .footer-right {
+			padding: 0;
+		}
+		.about-grid h3 {
+			font-size: 1.7em;
+		}
+		.about-grid span {
+			font-size: 0.89em;
+		}
+		.about-grid p {
+			font-size: 0.97em;
+		}
+		.about-grid {
+			width: 100%;
+			float: none;
+		}
+		.center-grid {
+			margin: 0 0;
+		}
+		.center-grid {
+			margin: 0 0;
+		}
+	}
+
+/*--responsive--*/
+
