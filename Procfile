@@ -1,1 +1,1 @@
-web: gunicorn we_are_social.wsgi:application
+web: gunicorn discover-thailand.wsgi:application
