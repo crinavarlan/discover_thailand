@@ -1,1 +1,1 @@
-web: gunicorn discover-thailand.wsgi:application
+web: gunicorn discover_thailand.wsgi:application
