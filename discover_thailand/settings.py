@@ -25,7 +25,7 @@ SECRET_KEY = 'xskj7!qc0tg*zmyz%z=44i60(&1b1prq@6h5g%b1bl)+lyqp4('
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://discover-thailand.herokuapp.com/']
+ALLOWED_HOSTS = []
 
 
 SITE_ID = 1
