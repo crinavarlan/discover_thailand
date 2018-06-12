@@ -22,3 +22,7 @@ class BlogPostTests(TestCase):
     def test_home_page_status_code_is_not_500(self):
             home_page = self.client.get('/')
             self.assertNotEquals(home_page.status_code, 500)
+
+    def test_blog_page_status_code_is_ok(self):
+        blog_page = self.client.get('/blog/')
+        self.assertEquals(blog_page.status_code, 200)

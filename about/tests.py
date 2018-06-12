@@ -16,3 +16,7 @@ class HomePageTest(TestCase):
     def test_home_page_status_code_is_not_500(self):
         home_page = self.client.get('/about/')
         self.assertNotEquals(home_page.status_code, 500)
+
+    def test_about_page_status_code_is_ok(self):
+        about_page = self.client.get('/about/')
+        self.assertEquals(about_page.status_code, 200)
