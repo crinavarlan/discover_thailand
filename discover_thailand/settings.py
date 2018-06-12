@@ -25,7 +25,9 @@ SECRET_KEY = 'xskj7!qc0tg*zmyz%z=44i60(&1b1prq@6h5g%b1bl)+lyqp4('
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://discover-thailand.herokuapp.com/']
+
+
 SITE_ID = 1
 
 
@@ -164,6 +166,6 @@ EMAIL_USE_TLS = False
 EMAIL_PORT = 1025
 
 
-SITE_URL = 'http://127.0.0.1:8000'
-PAYPAL_NOTIFY_URL = 'http://127.0.0.1/a-very-hard-to-guess-url/'
+SITE_URL = 'https://discover-thailand.herokuapp.com/'
+PAYPAL_NOTIFY_URL = 'https://discover-thailand.herokuapp.com/'
 PAYPAL_RECEIVER_EMAIL = 'discoverthailandbusiness.sandbox@yahoo.com'
