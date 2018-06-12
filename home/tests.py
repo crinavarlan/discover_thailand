@@ -15,3 +15,12 @@ class HomePageTest(TestCase):
     def test_home_page_status_code_is_not_500(self):
         home_page = self.client.get('/')
         self.assertNotEquals(home_page.status_code, 500)
+
+    def test_home_page_uses_index_view(self):
+        home_page = resolve('/')
+        self.assertEqual(home_page.func, get_home)
+
+    def test_home_page_uses_index_template(self):
+        home_page = self.client.get('/')
+        self.assertTemplateUsed(home_page, "home.html")
+
