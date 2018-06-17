@@ -2,181 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddc025ae-6260-4fd1-af85-5dd7578cacf1" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/css/styles.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/images/about-me.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/images/about/20-years-20-platters.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/images/about/nami-premium-set.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/images/about/steak.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/images/about/thai-flag.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/images/about/the-reflexions.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/images/bann1.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/images/bann2.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/images/bann3.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/images/brand.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/images/carousel/1.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/images/carousel/2.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/images/carousel/3.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/images/carousel/4.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/images/fast_facts/currency.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/images/fast_facts/language.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/images/fast_facts/time.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/images/places/place-1.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/images/places/place-2.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/images/places/place-3.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/images/places/place-4.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/images/places/place-5.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/images/places/place-6.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/images/places/place-7.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/images/places/place-8.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/images/places/place-9.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/images/social/facebook.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/images/social/instagram.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/images/social/pinterest.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/images/social/twitter.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/images/thailand-map.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/images/travel-concept.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/js/script.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/css/font-awesome-4.5.0/HELP-US-OUT.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/css/font-awesome-4.5.0/css/font-awesome.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/css/font-awesome-4.5.0/css/font-awesome.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/css/font-awesome-4.5.0/fonts/FontAwesome.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/css/font-awesome-4.5.0/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/css/font-awesome-4.5.0/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/css/font-awesome-4.5.0/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/css/font-awesome-4.5.0/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/css/font-awesome-4.5.0/fonts/fontawesome-webfont.woff2" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/css/font-awesome-4.5.0/less/animated.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/css/font-awesome-4.5.0/less/bordered-pulled.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/css/font-awesome-4.5.0/less/core.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/css/font-awesome-4.5.0/less/fixed-width.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/css/font-awesome-4.5.0/less/font-awesome.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/css/font-awesome-4.5.0/less/icons.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/css/font-awesome-4.5.0/less/larger.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/css/font-awesome-4.5.0/less/list.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/css/font-awesome-4.5.0/less/mixins.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/css/font-awesome-4.5.0/less/path.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/css/font-awesome-4.5.0/less/rotated-flipped.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/css/font-awesome-4.5.0/less/stacked.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/css/font-awesome-4.5.0/less/variables.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/css/font-awesome-4.5.0/scss/_animated.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/css/font-awesome-4.5.0/scss/_bordered-pulled.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/css/font-awesome-4.5.0/scss/_core.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/css/font-awesome-4.5.0/scss/_fixed-width.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/css/font-awesome-4.5.0/scss/_icons.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/css/font-awesome-4.5.0/scss/_larger.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/css/font-awesome-4.5.0/scss/_list.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/css/font-awesome-4.5.0/scss/_mixins.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/css/font-awesome-4.5.0/scss/_path.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/css/font-awesome-4.5.0/scss/_rotated-flipped.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/css/font-awesome-4.5.0/scss/_stacked.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/css/font-awesome-4.5.0/scss/_variables.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/css/font-awesome-4.5.0/scss/font-awesome.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/css/responsiveslides.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/angular.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/bootstrap.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/responsiveslides.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/responsiveslides.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/stripe.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/jquery.tinymce.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/langs/readme.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/license.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/plugins/advlist/plugin.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/plugins/anchor/plugin.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/plugins/autolink/plugin.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/plugins/autoresize/plugin.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/plugins/autosave/plugin.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/plugins/bbcode/plugin.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/plugins/charmap/plugin.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/plugins/code/plugin.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/plugins/codesample/css/prism.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/plugins/codesample/plugin.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/plugins/colorpicker/plugin.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/plugins/contextmenu/plugin.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/plugins/directionality/plugin.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/plugins/emoticons/img/smiley-cool.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/plugins/emoticons/img/smiley-cry.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/plugins/emoticons/img/smiley-embarassed.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/plugins/emoticons/img/smiley-foot-in-mouth.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/plugins/emoticons/img/smiley-frown.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/plugins/emoticons/img/smiley-innocent.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/plugins/emoticons/img/smiley-kiss.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/plugins/emoticons/img/smiley-laughing.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/plugins/emoticons/img/smiley-money-mouth.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/plugins/emoticons/img/smiley-sealed.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/plugins/emoticons/img/smiley-smile.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/plugins/emoticons/img/smiley-surprised.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/plugins/emoticons/img/smiley-tongue-out.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/plugins/emoticons/img/smiley-undecided.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/plugins/emoticons/img/smiley-wink.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/plugins/emoticons/img/smiley-yell.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/plugins/emoticons/plugin.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/plugins/fullpage/plugin.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/plugins/fullscreen/plugin.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/plugins/help/img/logo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/plugins/help/plugin.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/plugins/hr/plugin.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/plugins/image/plugin.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/plugins/imagetools/plugin.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/plugins/importcss/plugin.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/plugins/insertdatetime/plugin.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/plugins/legacyoutput/plugin.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/plugins/link/plugin.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/plugins/lists/plugin.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/plugins/media/plugin.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/plugins/nonbreaking/plugin.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/plugins/noneditable/plugin.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/plugins/pagebreak/plugin.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/plugins/paste/plugin.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/plugins/preview/plugin.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/plugins/print/plugin.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/plugins/save/plugin.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/plugins/searchreplace/plugin.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/plugins/spellchecker/plugin.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/plugins/tabfocus/plugin.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/plugins/table/plugin.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/plugins/template/plugin.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/plugins/textcolor/plugin.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/plugins/textpattern/plugin.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/plugins/toc/plugin.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/plugins/visualblocks/css/visualblocks.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/plugins/visualblocks/plugin.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/plugins/visualchars/plugin.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/plugins/wordcount/plugin.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/skins/lightgray/content.inline.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/skins/lightgray/content.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/skins/lightgray/content.mobile.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/skins/lightgray/fonts/tinymce-mobile.woff" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/skins/lightgray/fonts/tinymce-small.eot" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/skins/lightgray/fonts/tinymce-small.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/skins/lightgray/fonts/tinymce-small.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/skins/lightgray/fonts/tinymce-small.woff" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/skins/lightgray/fonts/tinymce.eot" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/skins/lightgray/fonts/tinymce.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/skins/lightgray/fonts/tinymce.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/skins/lightgray/fonts/tinymce.woff" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/skins/lightgray/img/anchor.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/skins/lightgray/img/loader.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/skins/lightgray/img/object.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/skins/lightgray/img/trans.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/skins/lightgray/skin.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/skins/lightgray/skin.mobile.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/themes/inlite/theme.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/themes/mobile/theme.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/themes/modern/theme.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/js/tinymce/tinymce.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/owl-carousel/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/owl-carousel/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/owl-carousel/assets/ajax-loader.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/owl-carousel/assets/owl.carousel.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/owl-carousel/assets/owl.carousel.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/owl-carousel/assets/owl.theme.default.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/owl-carousel/assets/owl.theme.default.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/owl-carousel/assets/owl.theme.green.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/owl-carousel/assets/owl.theme.green.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/owl-carousel/assets/owl.video.play.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/owl-carousel/owl.carousel.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/vendors/owl-carousel/owl.carousel.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/discover_thailand/settings.py" afterPath="$PROJECT_DIR$/discover_thailand/settings.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -190,7 +16,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="base.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="base.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/settings/base.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="468">
@@ -286,11 +112,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/discover_thailand/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="33" column="24" lean-forward="false" selection-start-line="33" selection-start-column="24" selection-end-line="34" selection-end-column="0" />
+            <state relative-caret-position="198">
+              <caret line="155" column="0" lean-forward="true" selection-start-line="155" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -373,8 +199,8 @@
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/requirements/base.txt" />
         <option value="$PROJECT_DIR$/templates/base.html" />
-        <option value="$PROJECT_DIR$/discover_thailand/settings.py" />
         <option value="$PROJECT_DIR$/settings/base.py" />
+        <option value="$PROJECT_DIR$/discover_thailand/settings.py" />
       </list>
     </option>
   </component>
@@ -385,10 +211,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="226" />
-    <option name="y" value="15" />
-    <option name="width" value="1200" />
-    <option name="height" value="718" />
+    <option name="x" value="-7" />
+    <option name="width" value="694" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -415,6 +240,11 @@
           <expand>
             <path>
               <item name="discover_thailand" type="b2602c69:ProjectViewProjectNode" />
+              <item name="discover_thailand" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="discover_thailand" type="b2602c69:ProjectViewProjectNode" />
+              <item name="discover_thailand" type="462c0819:PsiDirectoryNode" />
               <item name="discover_thailand" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -499,15 +329,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="226" y="15" width="1200" height="718" extended-state="0" />
+    <frame x="-7" y="0" width="694" height="735" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17598684" sideWeight="0.1172466" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32888147" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3556701" sideWeight="0.49515906" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34557596" sideWeight="0.49515906" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1825658" sideWeight="0.88275343" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21315789" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31072554" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -913,14 +744,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/discover_thailand/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="33" column="24" lean-forward="false" selection-start-line="33" selection-start-column="24" selection-end-line="34" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1962">
@@ -933,6 +756,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
           <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/discover_thailand/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="155" column="0" lean-forward="true" selection-start-line="155" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
           <folding />
         </state>
       </provider>
