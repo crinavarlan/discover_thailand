@@ -204,19 +204,19 @@ figure.effect-zoe:hover h4 {
 
 /*-- Footer --*/
 
-.footer-wrapper {
+.footer {
     background: #303030;
     padding: 3em 0;
     margin-top: 3em;
 }
-.footer-wrapper h6 {
+.footer h6 {
     font-size: 1.7em;
     background: #506B7B;
     padding: 0.5em 1.7em;
     font-weight: 700;
     color: #fff;
 }
-.footer-wrapper p {
+.footer p {
     font-size: 0.875em;
     color: #fff;
     margin: 1em 0;
@@ -225,7 +225,7 @@ figure.effect-zoe:hover h4 {
 .footer-middle p {
     margin: 0;
 }
-.footer-wrapper h4 {
+.footer h4 {
     font-size: 1.7em;
     color: #fff;
     border-bottom: 1px solid #fff;
@@ -755,10 +755,10 @@ p.para-agileits {
 	.places-to-visit figure.effect-zoe h4 {
 		margin-top: 3.3em;
 	}
-	.footer-wrapper h4 {
+	.footer h4 {
     font-size: 1.5em;
 	}
-	.footer-wrapper p {
+	.footer p {
     font-size: 0.85em;
 	}
 	.about-grid h3 {
@@ -984,10 +984,10 @@ p.para-agileits {
     width: 100%;
     margin-bottom: 2em;
 	}
-	.footer-wrapper {
+	.footer {
     padding: 2em 0 1em;
 	}
-	.footer-wrapper h4 {
+	.footer h4 {
     font-size: 1.4em;
 	}
     .products-top h4 {
@@ -1210,7 +1210,7 @@ p.para-agileits {
 		.places-to-visit figure.effect-zoe h4 {
 			margin-top: 2.8em;
 		}
-		.footer-wrapper h4 {
+		.footer h4 {
 			font-size: 1.3em;
 		}
         .map img {
