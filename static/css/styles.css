@@ -60,6 +60,9 @@ body a:hover,body a:focus{
   opacity: 0.7;
   border-radius: 5px;
 }
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
 /*--/carousel slide--*/
 
 /*-- Thailand Fast Facts --*/
