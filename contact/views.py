@@ -1,6 +1,7 @@
 from django.shortcuts import render, redirect
 from contact.forms import ContactForm
 from django.core.mail import send_mail
+from django.contrib import messages
 
 
 def contact(request):
@@ -13,6 +14,7 @@ def contact(request):
             sender = form.cleaned_data['sender']
             message = form.cleaned_data['message']
             recipients = ['me@example.com']
+            messages.success(request, 'Your information was successfully sent!')
 
             send_mail(contact_name, message, sender, recipients)
             return redirect('contact')
