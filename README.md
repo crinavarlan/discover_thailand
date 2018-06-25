@@ -49,7 +49,7 @@ Also, the user can add a post in a blog, add threads or comment in forum.
 * Has been tested whit an online validator [w3.org](https://validator.w3.org/).
 * Also, some of the apps have been tested using Django Framework.
 * Blisk has been used to test the responsive part. Have yet to come across any undesired responsiveness issues.
-* There are some unresolved errors. Any user can edit/delete posts on blog and forum even though the logged user is not the post creator.
+* There are some improvements that cam be made regarding user rights . Any user can edit/delete posts on blog even though the logged user is not the post creator.
 
 
 
