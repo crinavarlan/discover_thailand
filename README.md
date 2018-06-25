@@ -3,7 +3,7 @@
 
 Discover Thailand is a project which promotes information about traveling, culture and places to visit. Is also, provides possibility to buy some packages made special for Thailand travelers. The project has been buid with [Python] (https://www.python.org/) using [Django] (https://www.djangoproject.com/)
 Text content is not intended for production.
-A live version of this app is hosted [here]()
+A live version of this app is hosted [here](https://discover-thailand.herokuapp.com/)
 
 
 ## Description
