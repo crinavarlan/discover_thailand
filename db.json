@@ -1,5 +1,21 @@
 [
 {
+    "model": "sessions.session",
+    "pk": "6k180fjzrbey3unuhruienpjyqygebrc",
+    "fields": {
+        "session_data": "M2MwNjUxYzg3NWUyMTg0MzFjODNhOGViZTdhMjAxZmJiYWFjZTkxMTp7Il9hdXRoX3VzZXJfaGFzaCI6IjVlZjM0MzA1OGE0MmIwZTRlNjI2ZGUzYzk0Nzc2Y2I4MGJkMmY2ZjAiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJhY2NvdW50cy5iYWNrZW5kcy5FbWFpbEF1dGgiLCJfYXV0aF91c2VyX2lkIjoiMiJ9",
+        "expire_date": "2018-07-08T22:24:57.324Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "cqqrcc7osgupa3tumf0waudi9p016n2o",
+    "fields": {
+        "session_data": "M2MwNjUxYzg3NWUyMTg0MzFjODNhOGViZTdhMjAxZmJiYWFjZTkxMTp7Il9hdXRoX3VzZXJfaGFzaCI6IjVlZjM0MzA1OGE0MmIwZTRlNjI2ZGUzYzk0Nzc2Y2I4MGJkMmY2ZjAiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJhY2NvdW50cy5iYWNrZW5kcy5FbWFpbEF1dGgiLCJfYXV0aF91c2VyX2lkIjoiMiJ9",
+        "expire_date": "2018-07-04T22:58:01.648Z"
+    }
+},
+{
     "model": "sites.site",
     "pk": 1,
     "fields": {
@@ -34,7 +50,7 @@
     "pk": 2,
     "fields": {
         "password": "pbkdf2_sha256$36000$uxFmjkUZyfEj$Ad15fr+rxrY33gGYSCeVn+evZ9Q09FjMJrcNH1CH+J8=",
-        "last_login": "2018-06-11T21:51:53.525Z",
+        "last_login": "2018-06-24T22:24:57.209Z",
         "is_superuser": true,
         "username": "varlan.crina@gmail.com",
         "first_name": "",
@@ -125,11 +141,11 @@
             "varlan.crina@gmail.com"
         ],
         "title": "Thailand Costs",
-        "content": "Accommodation \r\n\r\nThailand is very cheap, though the north is far cheaper than Bangkok and the southern islands. You can find cheap guesthouses for as little 300 THB per night in cities and 200 THB per night in the countryside, though in the big cities like Chiang Mai and Bangkok, rooms start at about 400 per night. On the islands or for a nicer room with air-conditioner, expect to pay 600 THB and up per night. Basic bungalows cost the same. Hotels start at around 1,350 THB per night and go up from there. Big resorts on the islands start at 1,700 THB per night for a bungalow on the beach. Dorm rooms, which are increasingly widespread throughout the country, range from 100-150 THB per night. Airbnb is also growing in Thailand and a good amount of cities have a nice selection. A shared room starts around 350 THB per night and renting a full apartment starts around 700 THB per night. Chada Guesthouse (Bangkok), Julies (Chiang Mai), Kodchasri B&amp;B (Chiang Mai), Pooh&rsquo;s (Ko Lipe), Greenhouse (Khao Yai) are my favorite places to sleep in the country. \r\n\r\nFood \r\nFood is really cheap in Thailand. Street food costs as little as 20 THB, though on average you&rsquo;ll spend about 35-50 THB per meal if you want something really filling. If you stick to the local street food, you can eat for around 120-170 THB a day. Most western dishes (burgers, pizza, pasta, etc) cost between 170-340 THB, though they can be higher in the fancier western establishments. Since food is so cheap, there&rsquo;s no point in grocery shopping unless you&rsquo;re looking to get some pre-made salads or fruits. Visit each city guide for specific food recommendations in each place! \r\n\r\nTransportation \r\n\r\nLike everything in Thailand, transportation is also cheap. Local buses cost as little as 8 THB per trip, the Metro and Skytrain in Bangkok cost 15-50 THB per trip and metered taxi rides are usually 60-100 THB each. Tuk-tuks are un-metered and generally more expensive, costing 100-235 THB per ride. Motorbike taxis (in orange vests) are available all over the country with short trips costing about 35 THB (you need to negotiate the price). Train service around the country is cheap &ndash; day trains cost as little as 50 THB. Night trains start at 575 THB for second-class without air-conditioning. Boats to/from the islands cost between 250-475 THB. (Note: It&rsquo;s often better to get a bus/boat package then pay for them separately.) Coach buses are a great way to get around the country. For example, a bus ride from Bangkok to Chiang Mai costs 550-700 THB and a bus ride from Bangkok to Phuket costs 500-1,000 THB. Activities Day tours cost 500-1,200 THB depending on the activity. Jungle trekking costs 1,000-1,685 THB per day. Keep in mind, you have more bargaining power if you go with a group. Most parks and national museums cost between 50-100 THB to get into (as a non-Thai, you&rsquo;ll always pay a higher rate). A PADI dive certification course (very popular in Thailand) costs around 10,000 THB (but often includes accommodation).\r\n\r\n Source: https://www.nomadicmatt.com/travel-guides/thailand-travel-tips/\"</p>",
+        "content": "<p>AccommodationThailand is very cheap, though the north is far cheaper than Bangkok and the southern islands. You can find cheap guesthouses for as little 300 THB per night in cities and 200 THB per night in the countryside, though in the big cities like Chiang Mai and Bangkok, rooms start at about 400 per night. On the islands or for a nicer room with air-conditioner, expect to pay 600 THB and up per night. Basic bungalows cost the same. Hotels start at around 1,350 THB per night and go up from there. Big resorts on the islands start at 1,700 THB per night for a bungalow on the beach. Dorm rooms, which are increasingly widespread throughout the country, range from 100-150 THB per night. Airbnb is also growing in Thailand and a good amount of cities have a nice selection. A shared room starts around 350 THB per night and renting a full apartment starts around 700 THB per night. Chada Guesthouse (Bangkok), Julies (Chiang Mai), Kodchasri B&amp;B (Chiang Mai), Pooh&rsquo;s (Ko Lipe), Greenhouse (Khao Yai) are my favorite places to sleep in the country. Food Food is really cheap in Thailand. Street food costs as little as 20 THB, though on average you&rsquo;ll spend about 35-50 THB per meal if you want something really filling. If you stick to the local street food, you can eat for around 120-170 THB a day. Most western dishes (burgers, pizza, pasta, etc) cost between 170-340 THB, though they can be higher in the fancier western establishments. Since food is so cheap, there&rsquo;s no point in grocery shopping unless you&rsquo;re looking to get some pre-made salads or fruits. Visit each city guide for specific food recommendations in each place! Transportation Like everything in Thailand, transportation is also cheap. Local buses cost as little as 8 THB per trip, the Metro and Skytrain in Bangkok cost 15-50 THB per trip and metered taxi rides are usually 60-100 THB each. Tuk-tuks are un-metered and generally more expensive, costing 100-235 THB per ride. Motorbike taxis (in orange vests) are available all over the country with short trips costing about 35 THB (you need to negotiate the price). Train service around the country is cheap &ndash; day trains cost as little as 50 THB. Night trains start at 575 THB for second-class without air-conditioning. Boats to/from the islands cost between 250-475 THB. (Note: It&rsquo;s often better to get a bus/boat package then pay for them separately.) Coach buses are a great way to get around the country. For example, a bus ride from Bangkok to Chiang Mai costs 550-700 THB and a bus ride from Bangkok to Phuket costs 500-1,000 THB. Activities Day tours cost 500-1,200 THB depending on the activity. Jungle trekking costs 1,000-1,685 THB per day. Keep in mind, you have more bargaining power if you go with a group. Most parks and national museums cost between 50-100 THB to get into (as a non-Thai, you&rsquo;ll always pay a higher rate). A PADI dive certification course (very popular in Thailand) costs around 10,000 THB (but often includes accommodation). Source: https://www.nomadicmatt.com/travel-guides/thailand-travel-tips/\"</p>",
         "created_date": "2018-06-11T01:56:44.249Z",
-        "published_date": "2018-06-11T22:38:31Z",
+        "published_date": "2018-06-20T23:29:40.626Z",
         "image": "static/images/blog/thai-baht-notes_nEyTXgT.jpg",
-        "views": 40,
+        "views": 49,
         "tag": null
     }
 },
@@ -145,7 +161,7 @@
         "created_date": "2018-06-11T01:57:25.457Z",
         "published_date": "2018-06-11T08:31:48Z",
         "image": "static/images/blog/bt-samui-activities-celebrations-image4_9eHQHN1.jpg",
-        "views": 6,
+        "views": 8,
         "tag": null
     }
 },
