@@ -14,7 +14,7 @@ Some of the key features of this web application are:
 * A home app with information about Thailand
 * A about app which is a guide regarding Thailand for travelers
 * A blog app which use Disqus for comments
-* A products app whit paypal payments
+* A products app whith paypal payments
 * A forum app
 * A polls app
 * A contact form
@@ -25,7 +25,7 @@ Some of the key features of this web application are:
 *__Account, register and authentication__*
 * The email acts as username
 * Once registered and logged in, the user can accesses his profile page where he can found basic information and can reset his password.
-Also, the user can add a post in a blog, add threads or comment in forum
+Also, the user can add a post in a blog, add threads or comment in forum.
 
 *__Blog__*
 * Enables users to create articles about Thailand
@@ -39,7 +39,7 @@ Also, the user can add a post in a blog, add threads or comment in forum
 * Only members can *create, edit and delete* a post.
 
 *__Products__*
-* There is a list of different packages that users can buy using paypal.
+* There is a list of different packages that any visitor can buy using paypal.
 
 *__Contact__*
 * A **form** that allows any visitor to ask question.
@@ -49,6 +49,8 @@ Also, the user can add a post in a blog, add threads or comment in forum
 * Has been tested whit an online validator [w3.org](https://validator.w3.org/).
 * Also, some of the apps have been tested using Django Framework.
 * Blisk has been used to test the responsive part. Have yet to come across any undesired responsiveness issues.
+* There are some unresolved errors. Any user can edit/delete posts on blog and forum even though the logged user is not the post creator.
+
 
 
 ## Technology used
